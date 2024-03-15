@@ -9,7 +9,7 @@ export default async function Page({ params}:
     fetchInvoiceById(id),
     fetchCustomers()
   ]);
-
+  
   return (
     <main>
       <Breadcrumbs
